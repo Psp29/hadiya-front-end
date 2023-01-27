@@ -23,14 +23,14 @@ pipeline
 				sh 'node --version'
 			}
 		}
-		stage('Install Angular-Cli')
-		{
-			steps
-			{
-				sh 'sudo npm install -g @angular/cli'
-				// sh 'docker compose ps'
-			}
-		}
+		// stage('Install Angular-Cli')
+		// {
+		// 	steps
+		// 	{
+		// 		sh 'sudo npm install -g @angular/cli'
+		// 		// sh 'docker compose ps'
+		// 	}
+		// }
 		stage('Build and Run Front-End')
 		{
 			steps
