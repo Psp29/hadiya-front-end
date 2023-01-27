@@ -35,7 +35,7 @@ pipeline
 		{
 			steps
 			{
-				sh 'cd hadiya-front-end'
+				// sh 'cd hadiya-front-end'
 				sh 'npm install'
 				sh 'npm start'
 			}
